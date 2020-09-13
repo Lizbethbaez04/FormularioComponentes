@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br>
+                <center>
+                    <button class="btn" style="background-color: blueviolet;"><h3 class="text-white">B</h3></button>
+                    <br>
+                    <h4>Formulario de pago</h4>
+                    <p>Esto es un ejemplo de formulario de pago</p>
+                </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <h5>Dirección de facturación</h5>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <p>Nombre</p>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-6">
+                        <p>Apellidos</p>
+                        <input type="text" class="form-control">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col">
+                        <p>Usuario</p>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col">
+                        <p>Email<span class="text-secondary">(Opcional)</span> </p>
+                        <input type="email" class="form-control" placeholder="correo@lasallenoroeste.edu.mx">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Dirección de envío</p>
+                        <input type="text" class="form-control" placeholder="Veracruz S/N">
+                    </div><br>
+                </div><br>
+                <div class="row">
+                    <div class="col">
+                        <p>Dirección 2<span class="text-secondary">(Opcional)</span></p>
+                        <input type="text" class="form-control" placeholder="Número interior, suite">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-4">
+                        <p>País</p>
+                        <select class="custom-select">
+                            <option selected="">Elegir</option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <p>Estado</p>
+                        <select class="custom-select">
+                            <option selected="">Elegir</option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <p>Código postal</p>
+                        <input type="number" class="form-control">
+                    </div>
+                </div><br><hr><br>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input id="checkbox1" type="checkbox" class="form-check-input">
+                            <label class="form-check-label" for="checkbox1">
+                                Mi dirección de entrega es la misma que de facturación
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input id="checkbox2" type="checkbox" class="form-check-input">
+                            <label class="form-check-label" for="checkbox2">
+                                Guardar esta información para la próxima ocasión
+                            </label>
+                        </div>
+                    </div>
+                </div><br><hr><br>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" id="checkbox3" type="radio" name="checkbox"   value="option1" checked>
+                            <label class="form-check-label" for="checkbox3">
+                                Tarjeta de crédito
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" id="checkbox4"  type="radio" name="checkbox"  value="option2">
+                            <label class="form-check-label" for="checkbox4">
+                                Tarjeta de Débito
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input name="checkbox" id="checkbox5" type="radio" class="form-check-input" value="option3"> 
+                            <label class="form-check-label" for="checkbox5">
+                                PayPal
+                            </label>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-6">
+                        <p>Nombre en la tarjeta</p>
+                        <input type="text" class="form-control">
+                        <p class="text-secondary" style="text-size-adjust: 12px;">Nombre completo como aparece en la tarjeta</p>
+                    </div>
+                    <div class="col-6">
+                        <p>Número de tarjeta</p>
+                        <input type="text" class="form-control">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-3">
+                        <p>Expiración</p>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-3">
+                        <p>CVV</p>
+                        <input type="text" class="form-control">
+                    </div>
+                </div><br><hr><br>
+                <button class="btn btn-primary btn-block">Continuar con el pago</button>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="text-secondary">Carrito</h5>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-2">
+                        <h5 class="badge badge-secondary badge-pill">3</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="btn btn-group-vertical">
+                            <button class="btn btn-outline-secondary">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6 class="text-dark">Mollete</h6>
+                                    </div>
+                                    <div class="col-4"></div>
+                                    <div class="col-4">
+                                        <h6 class="text-secondary">$20</h6>
+                                    </div>
+                                </div>
+                                <div>
+                                    Delicioso pan con frijol cubierto de queso<br> derretido.
+                                </div>
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h6 class="text-dark">Coca de vidrio</h6>
+                                    </div>
+                                    <div class="col-3"></div>
+                                    <div class="col-4">
+                                        <h6 class="text-secondary">$15</h6>
+                                    </div>
+                                    <div>
+                                        Dulce elixir de los dioses contenido en una botella de cristal para
+                                        conservar al máximo<br> su sabor. 
+                                    </div>
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6 class="text-dark">Gansito</h6>
+                                    </div>
+                                    <div class="col-4"></div>
+                                    <div class="col-4">
+                                        <h6 class="texy-secondary">$15</h6>
+                                    </div>
+                                </div>
+                                <div>
+                                    Dulce pastelito relleno de fresa y crema con cubierta de chocolate.<br>Recuérdame!
+                                </div>
+                            </button>
+                            <button style="background-color: mintcream;" class="btn btn-outline-secondary">
+                                <div class="row">
+                                    <div class="col-4">  
+                                        <h6 class="text-success">Cupón</h6>
+                                    </div>
+                                    <div class="col-4"></div>
+                                    <div class="col-4">
+                                        <h6 class="text-success">-$5</h6>
+                                    </div>
+                            </div>
+                            <div class="text-success">
+                                        COVID19
+                                    </div>
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h6 class="text-dark">Total (MXN)</h6>
+                                    </div>
+                                    <div class="col-3"></div>
+                                    <div class="col-4"><h6 class="text-dark">$45</h6></div>
+                                </div>
+                            </button>
+                        </div><br>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <button class="btn btn-outline-secondary">
+                            <div class="col-10" ></div>
+                                <div class="input-group ">
+                                    <input type="text" class="form-control" placeholder="Código de cupón">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bg-secondary text-white">Ingresar</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div><br><br><br><br><br><br>
+
+        
+            
+        
+        
+            <div class="row">
+                <div class="col">
+                    <center>
+                    <p class="text-secondary" style="text-size-adjust: 12px;">© 2020 Universidad La Salle Noroeste</p>
+                    <button href="#" class="btn btn-link"  style="text-size-adjust: 12px;">Aviso de privacidad</button>
+                    <button href="#" class="btn btn-link"  style="text-size-adjust: 12px;">Términos y condiciones</button>
+                    <button href="#" class="btn btn-link"  style="text-size-adjust: 12px;">Contacto</button>
+                </center>
+                </div>                    
+            </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
